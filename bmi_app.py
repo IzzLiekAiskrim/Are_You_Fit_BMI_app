@@ -21,12 +21,6 @@ data = {
 # Create a DataFrame
 bmi_table = pd.DataFrame(data)
 
-
-with open("style.css") as f:
-    css = f.read()
-
-st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
-
 # --- App Configuration ---
 st.set_page_config(page_title="Are You Fit?", page_icon="💪", layout="centered")
 
